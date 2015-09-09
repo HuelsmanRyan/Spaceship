@@ -1,0 +1,3 @@
+NumStars 9
+NumMaxLives 3
+

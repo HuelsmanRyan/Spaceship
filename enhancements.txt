@@ -1,0 +1,31 @@
+1) Allow rocket to only move right.  Initial and
+   minimum speed of the rocket will be positive one.
+
+2) Use the variables numMaxLives and currentNumLives to
+   allow the rocket to have multiple lives.  Each time
+   the rocket runs into a yellow star, the rocket will
+   lose one life.  Display game over when the rocket
+   has no more lives.  Pause game when game over.  
+
+3) Display rocket images to show how many lives
+   are left.
+
+4) Add to method readFile(), the name value pair
+   for NumMaxLives.  This will set the maximum
+   number of lives that the rocket can have.  Even if
+   info.txt has a value for NumMaxLives that is less
+   than 1 or greater than 8, don't allow numMaxLives 
+   to be smaller than 1 or larger than 8.
+
+5) Complete Star class.  Constructor will receive 2 values.
+   The first value is the window width and the second
+   value is the window height.  The constructor should
+   initialize xpos and ypos to random values.
+
+6) An enemy star will be yellow and non-enemy star
+   will be blue.  stars[0] will be the only non-enemy
+   star.  When the rocket runs into an enemy star,
+   the rocket will lose one life.  When the rocket
+   runs into a non-enemy star, the rocket will add
+   one life.  The rocket can not add more lives than
+   numMaxLives.
